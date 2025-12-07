@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Floreale — Inicio Responsive</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <section class="contact-section">
+    <h2 class="contact-title">Compra Abajo</h2>
+
+    
+    <form class="contact-form">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Correo electrónico" required>
+        
+        <select name="genero" required>
+            <option value="" disabled selected>Selecciona tu Género</option>
+            <option value="femenino">Femenino</option>
+            <option value="masculino">Masculino</option>
+            <option value="otro">Otro</option>
+            <option value="prefiero_no_decir">Prefiero no decir</option>
+        </select>
+        
+     <select name="producto" required>
+    <option value="" disabled selected>Selecciona el Producto</option>
+    <option value="tulipanes">Tulipanes</option>
+    <option value="girasoles">Girasoles</option>
+    <option value="rosas">Rosas</option>
+    <option value="amor">Amor</option>
+    <option value="primavera">Primavera</option>
+    <option value="luto">Luto</option>
+</select>
+        </select>
+        
+        <textarea name="mensaje" placeholder="Tu mensaje"></textarea>
+<button type="submit" class="send-btn">Enviar</button>
+    </form>
+</body>
+</section>
